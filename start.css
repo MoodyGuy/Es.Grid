@@ -1,0 +1,55 @@
+body {
+
+    display: grid;
+    grid-template-columns: repeat 3(30%);
+grid-template-rows: 25% 50% 25%;
+}
+
+#green {
+
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+#yellow {
+ 
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#red {
+
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#blue {
+
+    grid-column: 3;
+    grid-row: 2 / 4;
+}
+
+#orange {
+
+    grid-column: 1/ 3;
+    grid-row: 3;
+}
+
+.yellow_box {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   justify-content: center;
+    gap: 4rem;
+}
+
+.red_box {
+
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4rem;
+}
